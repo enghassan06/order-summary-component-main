@@ -1,0 +1,124 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  border: none;
+  font-family: "Times New Roman", Times, serif, sans-serif;
+}
+body {
+  background: url(pattern-background-desktop.svg) no-repeat top center;
+  background-size: cover;
+  background-color: #e0e8ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  border-radius: 20px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+  width: 390px;
+  overflow: hidden;
+}
+img {
+  border-radius: 20px 20px 0 0;
+}
+.content {
+  margin: 35px 0 20px 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 13px;
+  font-weight: bold;
+  font-size: 27px;
+}
+.content p {
+  text-align: center;
+  color: #8e94a4;
+  line-height: 1.5;
+}
+.sung {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f8f9fe;
+  border-radius: 15px;
+  width: 85%;
+  height: 70px;
+  padding: 5px;
+}
+.sung img {
+  margin: 0 20px;
+}
+.text {
+  display: inline;
+  position: absolute;
+  top: 14px;
+  left: 85px;
+  line-height: 25px;
+}
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+  column-gap: 3px;
+}
+.sung p {
+  color: #8e94a4;
+}
+.change {
+  position: absolute;
+  right: 20px;
+  color: #2328a0;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  text-decoration: underline;
+  transition: all 250ms linear;
+}
+.change:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+.pay {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: blue;
+  width: 85%;
+  padding: 13px;
+  margin: 20px 0 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 250ms linear;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.pay:hover {
+  background-color: #766cf1;
+}
+.cancel {
+  margin-top: 25px;
+  background: transparent;
+  color: #8e94a4;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 250ms linear;
+}
+.cancel:hover {
+  color: black;
+}
+@media (max-width: 360px) {
+  .container {
+    width: 90%;
+    height: 80%;
+  }
+}
