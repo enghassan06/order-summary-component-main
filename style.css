@@ -116,7 +116,7 @@ h2 {
 .cancel:hover {
   color: black;
 }
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   .container {
     width: 90%;
     height: 80%;
